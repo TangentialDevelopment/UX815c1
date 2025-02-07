@@ -1,0 +1,19 @@
+{
+  "name": "ux815c1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch source/scss/:compiled/css/ --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TangentialDevelopment/UX815c1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TangentialDevelopment/UX815c1/issues"
+  },
+  "homepage": "https://github.com/TangentialDevelopment/UX815c1#readme"
+}
