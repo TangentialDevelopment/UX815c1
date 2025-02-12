@@ -1,3 +1,90 @@
-h1 {
-    color: green;
+//colors
+$bgcolor: #2C0735;
+$color2: #4E148C;
+$color3: #613DC1;
+$color4: #858AE3;
+$color5: #97DFFC;
+$sun: #FFCC33;
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $bgcolor;
+    margin: 0;
+}
+
+.header {
+    height: 40px;
+    overflow: hidden;
+    padding: 20px 10px;
+    margin: 0;
+    background-color: $color4;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+
+    img {
+        margin-top: 4%;
+    }
+
+    .hider {
+        height: 600px;
+        background-color: $color4;
+    }
+}
+
+#sol {
+    z-index: 99;
+}
+
+#mercury {
+    z-index: 60;
+    position: relative;
+    left: -1000px;
+}
+
+#venus {
+    z-index: 59;
+    position: relative;
+    left: -1900px;
+}
+
+#earth {
+    z-index: 58;
+    position: relative;
+    left: -2900px;
+}
+
+#mars {
+    z-index: 57;
+    position: relative;
+    left: -3900px;
+}
+
+#jupiter {
+    z-index: 56;
+    position: relative;
+    left: -4900px;
+}
+
+#saturn {
+    z-index: 55;
+    position: relative;
+    left: -5910px;
+}
+
+#neptune {
+    z-index: 54;
+    position: relative;
+    left: -6900px;
+}
+
+#uranus {
+    z-index: 53;
+    position: relative;
+    left: -7900px;
 }
